@@ -1,0 +1,16 @@
+[
+    {
+        "cluster":"shams-cluster",
+        "id": "419af818-0114-4c7b-8fdb-952915335ce4",
+        "port": 50001,
+        "gossip_interval": 1000,
+        "cleanup_interval": 10000,
+        "members": [
+            {
+                "cluster":"shams-cluster",
+                "host": "127.0.0.1",
+                "port": 50000
+            }
+        ]
+    }
+]

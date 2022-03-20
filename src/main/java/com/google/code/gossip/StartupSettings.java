@@ -159,7 +159,7 @@ public class StartupSettings {
   /**
    * Parse the settings for the gossip service from a JSON file.
    * 
-   * @param jsonFile
+   * @param configFile
    *          The file object which refers to the JSON config file.
    * @return The StartupSettings object with the settings from the config file.
    * @throws JSONException
@@ -169,11 +169,11 @@ public class StartupSettings {
    * @throws IOException
    *           Thrown when reading the file gives problems.
    */
-  public static StartupSettings fromJSONFile(File jsonFile) throws JSONException,
+  public static StartupSettings fromJSONFile(File configFile) throws JSONException,
           FileNotFoundException, IOException {
     // Read the file to a String.
     StringBuffer buffer = new StringBuffer();
-    try (BufferedReader br = new BufferedReader(new FileReader(jsonFile)) ){
+    try (BufferedReader br = new BufferedReader(new FileReader(configFile)) ){
       String line;
       while ((line = br.readLine()) != null) {
         buffer.append(line.trim());
