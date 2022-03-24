@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.google.code.gossip</OriginalElement>
+  <nodes>
+    <node x="331.0" y="525.0">com.google.code.gossip.GossipSettings</node>
+    <node x="546.0" y="503.0">com.google.code.gossip.manager.PassiveGossipThread</node>
+    <node x="0.0" y="415.0">com.google.code.gossip.StartupSettings</node>
+    <node x="3676.0" y="569.0">com.google.code.gossip.examples.GossipExample</node>
+    <node x="0.0" y="1215.0">com.google.code.gossip.event.GossipListener</node>
+    <node x="3879.0" y="547.0">com.google.code.gossip.GossipTimeoutTimer</node>
+    <node x="4316.0" y="591.5">com.google.code.gossip.GossipRunner</node>
+    <node x="4487.0" y="415.0">com.google.code.gossip.GossipMember</node>
+    <node x="1815.6517857142858" y="1139.0">com.google.code.gossip.manager.random</node>
+    <node x="1375.9999999999998" y="525.0">com.google.code.gossip.GossipService</node>
+    <node x="3394.0" y="569.0">com.google.code.gossip.model.ActiveGossipMessage</node>
+    <node x="1447.0267857142858" y="998.5">com.google.code.gossip.manager.impl</node>
+    <node x="2407.0" y="371.0">com.google.code.gossip.manager.GossipManager</node>
+    <node x="1937.9999999999998" y="536.0">com.google.code.gossip.manager.ActiveGossipThread</node>
+    <node x="4802.0" y="547.0">com.google.code.gossip.event.GossipState</node>
+    <node x="1034.9999999999998" y="426.0">com.google.code.gossip.model.GossipMember</node>
+    <node x="2804.5" y="0.0">java.lang.Object</node>
+    <node x="4746.875" y="132.5">java.lang.Comparable</node>
+    <node x="4673.75" y="975.0">com.google.code.gossip.RemoteGossipMember</node>
+    <node x="4200.75" y="941.0">com.google.code.gossip.LocalGossipMember</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.google.code.gossip.RemoteGossipMember" target="com.google.code.gossip.GossipMember" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="4841.75" y="916.0" />
+      <point x="4634.5" y="916.0" />
+      <point x="0.0" y="216.0" />
+    </edge>
+    <edge source="com.google.code.gossip.GossipMember" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="-73.75" y="-216.0" />
+      <point x="4560.75" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.event.GossipState" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="-48.5" y="-84.0" />
+      <point x="4850.5" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.manager.impl" target="com.google.code.gossip.manager.PassiveGossipThread" relationship="GENERALIZATION">
+      <point x="-31.25" y="-15.5" />
+      <point x="1478.2767857142858" y="916.0" />
+      <point x="780.5" y="916.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="com.google.code.gossip.GossipTimeoutTimer" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-84.0" />
+      <point x="4087.5" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.manager.random" target="com.google.code.gossip.manager.GossipManager" relationship="GENERALIZATION">
+      <point x="36.75" y="-15.5" />
+      <point x="1925.9017857142858" y="1113.0" />
+      <point x="2890.5" y="1113.0" />
+      <point x="0.0" y="260.0" />
+    </edge>
+    <edge source="com.google.code.gossip.manager.random" target="com.google.code.gossip.manager.impl" relationship="GENERALIZATION">
+      <point x="-36.75" y="-15.5" />
+      <point x="1852.4017857142858" y="1113.0" />
+      <point x="1509.5267857142858" y="1113.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.google.code.gossip.model.GossipMember" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-205.0" />
+      <point x="1195.4999999999998" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.examples.GossipExample" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-62.0" />
+      <point x="3767.5" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.GossipService" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.0" />
+      <point x="1646.9999999999998" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.event.GossipState" target="java.lang.Comparable" relationship="REALIZATION">
+      <point x="48.5" y="-84.0" />
+      <point x="4947.5" y="341.0" />
+      <point x="4827.875" y="341.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.google.code.gossip.GossipRunner" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="4391.5" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.GossipMember" target="java.lang.Comparable" relationship="REALIZATION">
+      <point x="73.75" y="-216.0" />
+      <point x="4708.25" y="341.0" />
+      <point x="4827.875" y="341.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.google.code.gossip.GossipSettings" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.0" />
+      <point x="428.5" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.model.ActiveGossipMessage" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-62.0" />
+      <point x="3525.0" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.manager.GossipManager" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-260.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.manager.PassiveGossipThread" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-128.0" />
+      <point x="780.5" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.manager.impl" target="com.google.code.gossip.manager.ActiveGossipThread" relationship="GENERALIZATION">
+      <point x="31.25" y="-15.5" />
+      <point x="1540.7767857142858" y="916.0" />
+      <point x="2162.5" y="916.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="com.google.code.gossip.StartupSettings" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-216.0" />
+      <point x="155.5" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="com.google.code.gossip.LocalGossipMember" target="com.google.code.gossip.GossipMember" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="4427.25" y="916.0" />
+      <point x="4634.5" y="916.0" />
+      <point x="0.0" y="216.0" />
+    </edge>
+    <edge source="com.google.code.gossip.manager.ActiveGossipThread" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-95.0" />
+      <point x="2162.5" y="351.0" />
+      <point x="2890.5" y="351.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.1" showDependencies="false" x="2740.0" y="-12.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -31,7 +31,7 @@ public class GossipRunner {
     if (args.length == 1) {
       configFile = new File("./" + args[0]);
     } else {
-      configFile = new File("C://Users//SAQERpc//Documents//GitHub//gossip//src//main//example.json");
+      configFile = new File("C:\\Users\\SAQERpc\\Desktop\\gossip\\src\\main\\example.json");
     }
     BasicConfigurator.configure();
 
